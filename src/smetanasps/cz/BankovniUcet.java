@@ -12,6 +12,12 @@ public class BankovniUcet {
 
     }
 
+    public void vypisInfo(){
+        System.out.println("Číslo účtu: " + cisloUctu);
+        System.out.println("Jméno majitele: " + jmenoMajitele);
+        System.out.println("Stav účtu:: " + stavUctu);
+
+    }
 
 
 }

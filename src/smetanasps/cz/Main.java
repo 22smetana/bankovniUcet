@@ -5,5 +5,7 @@ public class Main {
         System.out.println("Projekt se tridou BankovniUcet v2");
 
         BankovniUcet bu01 = new BankovniUcet("127-2566771/0100", "Jan Novak", 0);
+
+        bu01.vypisInfo();
     }
 }
